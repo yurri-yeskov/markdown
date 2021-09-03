@@ -9,13 +9,21 @@
             "email": "graham@alt-three.com"
         }
     ],
+    "repositories": [
+
+		{
+			"type": "vcs",
+			"url": "https://github.com/yurri-yeskov/commonmark"
+		}
+		
+	],
     "require": {
         "php": "^7.2.5 || ^8.0",
         "illuminate/contracts": "^6.0 || ^7.0 || ^8.0",
         "illuminate/filesystem": "^6.0 || ^7.0 || ^8.0",
         "illuminate/support": "^6.0 || ^7.0 || ^8.0",
         "illuminate/view": "^6.0 || ^7.0 || ^8.0",
-        "league/commonmark": "^2.0"
+        "yurri-yeskov/commonmark": "dev-master"
     },
     "require-dev": {
         "graham-campbell/analyzer": "^3.0",
